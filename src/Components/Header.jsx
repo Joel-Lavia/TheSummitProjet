@@ -3,7 +3,7 @@ function Header() {
 return(
 <header>
 <ul>
-    <li><NavLink to=""></NavLink></li>
+    <li><NavLink to="/TheLodge">The Lodge</NavLink></li>
     <li><NavLink to=""></NavLink></li>
     <li><NavLink to=""></NavLink></li>
     <li><NavLink to=""></NavLink></li>
