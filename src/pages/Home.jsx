@@ -3,6 +3,7 @@ import Header from "../Components/Header";
 import Section from "../Components/Section";
 import SecondSection from "../Components/SecondSection";
 import ThirdSection from "../Components/ThirdSection";
+import Footer from "../Components/Footer";
 function Home() {
   const navigate = useNavigate();
   const handleClick = (path) => {
@@ -14,6 +15,7 @@ function Home() {
       <Section />
       <SecondSection />
       <ThirdSection />
+      <Footer />
     </div>
   );
 }
