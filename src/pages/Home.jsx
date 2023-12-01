@@ -7,6 +7,10 @@ function Home() {
   return (
     <div>
       <button onClick={() => handleClick("/TheLodge")}>Connection</button>
+      <button onClick={() => handleClick("/SkiRun")}>Connection</button>
+      <button onClick={() => handleClick("/SkiRun")}>Connection</button>
+
+
     </div>
   );
 }
