@@ -20,7 +20,7 @@ const router = createBrowserRouter([
     element: <TheLodge />,
   },
   {
-    path: "/https://www.npmjs.com/package/react-router-dom",
+    path: "/SkiRun",
     element: <SkiRun />,
   },
   {

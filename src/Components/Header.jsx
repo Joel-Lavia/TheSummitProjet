@@ -7,9 +7,7 @@ function Header() {
           <NavLink to="/TheLodge">THE LODGE</NavLink>
         </button>
         <button className="nav-link">
-          <NavLink to="/https://www.npmjs.com/package/react-router-dom">
-            OUR SKI RUNS
-          </NavLink>
+          <NavLink to="/SkiRun">OUR SKI RUNS</NavLink>
         </button>
         <button className="nav-link">
           <NavLink to="/Theummit">THE SUMMIT</NavLink>
