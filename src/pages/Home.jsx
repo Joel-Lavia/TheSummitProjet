@@ -8,8 +8,8 @@ function Home() {
     <div>
       <button onClick={() => handleClick("/TheLodge")}>Connection</button>
       <button onClick={() => handleClick("/SkiRun")}>Connection</button>
-      <button onClick={() => handleClick("/SkiRun")}>Connection</button>
-
+      <button onClick={() => handleClick("/Theummit")}>Connection</button>
+      <button onClick={() => handleClick("/HowTo")}>Connection</button>
 
     </div>
   );

@@ -6,6 +6,8 @@ import "./index.css";
 import Home from "./pages/Home.jsx";
 import TheLodge from "./pages/TheLodge.jsx";
 import SkiRun from "./pages/SkiRun.jsx";
+import TheSummit from "./pages/TheSummit.jsx";
+import HowTo from "./pages/HowTo.jsx";
 
 const router = createBrowserRouter([
   {
@@ -13,12 +15,20 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "TheLodge",
+    path: "/TheLodge",
     element: <TheLodge />,
   },
   {
-    path: "SkiRun",
+    path: "/SkiRun",
     element: <SkiRun />,
+  },
+  {
+    path: "/Theummit",
+    element: <TheSummit />,
+  },
+  {
+    path: "/HowTo",
+    element: <HowTo />,
   },
 ]);
 
