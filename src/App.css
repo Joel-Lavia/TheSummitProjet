@@ -1,42 +1,50 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.nav-link {
+  border-radius: 31px;
+  border-style: none;
+  font-weight: bold;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.nav-link:hover {
+  background: blue;
+  color: red;
+  font-weight: bold;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn {
+  border-radius: 71px;
+  font-weight: bold;
+  background: #ebebf4;
+  box-shadow: 12px -12px 24px #a0a0a6, -12px 12px 24px #ffffff;
+  padding: 12px;
+  font-family: 'Raleway', sans-serif;
+  border-style: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.btn:hover {
+  box-shadow: inset 12px -12px 24px #a0a0a6, inset -12px 12px 24px #ffffff;
+  font-size: 14px;
+  transition-duration: 3s;
+  transition-delay: 1s;
 }
 
-.card {
-  padding: 2em;
+.btn:active {
+  color: blue;
 }
 
-.read-the-docs {
-  color: #888;
+.activity {
+  border-radius: 51px;
+  box-shadow: 5px 8px 8px #cacad2, -5px 5px 8px #ffffff;
+  border-style: none;
+
+}
+
+.activity:hover {
+  background: #a3acef;
+  box-shadow: inset 7px -7px 14px #9b9ba1, inset -7px 7px 14px #ffffff;
+}
+
+.activity:active {
+  color: red;
+  font-weight: bold;
+
 }

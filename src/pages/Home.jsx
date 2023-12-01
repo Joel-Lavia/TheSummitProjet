@@ -1,5 +1,6 @@
 import { Navigate, useNavigate } from "react-router-dom";
 import Header from "../Components/Header";
+import Section from "../Components/Section";
 function Home() {
   const navigate = useNavigate();
   const handleClick = (path) => {
@@ -8,6 +9,7 @@ function Home() {
   return (
     <div>
       <Header />
+      <Section />
     </div>
   );
 }
