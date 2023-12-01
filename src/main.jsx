@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import App from "./App.jsx";
+import "./App.css";
 import "./index.css";
 import Home from "./pages/Home.jsx";
 import TheLodge from "./pages/TheLodge.jsx";
@@ -20,7 +20,7 @@ const router = createBrowserRouter([
     element: <TheLodge />,
   },
   {
-    path: "/SkiRun",
+    path: "/https://www.npmjs.com/package/react-router-dom",
     element: <SkiRun />,
   },
   {
